@@ -1,0 +1,4 @@
+Search Query:
+  process_name:sdbinst.exe -parent_name:trustedinstaller.exe 
+References:
+ https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html
