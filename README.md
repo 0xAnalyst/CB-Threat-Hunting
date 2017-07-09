@@ -1,2 +1,3 @@
 # CB-Threat-Hunting
-some personal threat hunting
+Carbon Black Search queries that help security analysts in finding malicious activities. The search queries could be applied to other application including sysmon
+
