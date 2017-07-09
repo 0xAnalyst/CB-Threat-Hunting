@@ -1,0 +1,5 @@
+Search Query:
+  process_name:wmic.exe AND cmdline:"process" 
+  #The below should give less false positives 
+  process_name:wmic.exe AND cmdline:"process" AND cmdline:"create"
+  
