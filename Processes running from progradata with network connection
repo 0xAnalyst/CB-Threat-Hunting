@@ -1,0 +1,1 @@
+path:*Programdata* AND (digsig_result:"Bad Signature" OR digsig_result:"Invalid Signature" OR digsig_result:"Expired" OR digsig_result:"Invalid Chain" OR digsig_result:"Untrusted Root" OR digsig_result:"Unsigned" OR digsig_result:"Explicit Distrust") AND netconn_count:[1 TO *]
