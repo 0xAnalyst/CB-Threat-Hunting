@@ -1,0 +1,2 @@
+Search Query:-
+Parent_name:eventvwr.exe AND regmod:mscfile\shell\open\command AND -process_name:mmc.exe
