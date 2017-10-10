@@ -1,0 +1,1 @@
+(process_name:net.exe AND cmdline:group AND cmdline:*domain admins*) OR (process_name:net.exe AND cmdline:localgroup AND cmdline:*administrators*)
