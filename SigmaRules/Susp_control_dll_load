@@ -1,0 +1,3 @@
+Search Query:
+parent_name:control.exe AND process_name:rundll32.exe -cmdline:*Shell32.dll*
+note:
