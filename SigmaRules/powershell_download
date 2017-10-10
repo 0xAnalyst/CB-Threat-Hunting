@@ -1,0 +1,1 @@
+process_name:powershell.exe AND (cmdline:*downloadstring* OR cmdline:*downloadfile*)
