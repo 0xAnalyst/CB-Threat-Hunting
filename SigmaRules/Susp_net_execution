@@ -1,0 +1,2 @@
+Search Query:-
+(process_name:net.exe or process_name:net1.exe) AND (cmdline:group OR cmdline:*user* OR cmdline:localgroup OR cmdline:view OR cmdline:share OR cmdline:accounts OR cmdline:use)
