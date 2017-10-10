@@ -1,0 +1,1 @@
+process_name:schtasks.exe AND cmdline:*create* AND -username:"NT AUTHORITY\SYSTEM"
