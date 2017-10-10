@@ -1,0 +1,4 @@
+Search Query:
+(process_name:wscript.exe OR process_name:cscript.exe)  and (cmdline:*.jse OR cmdline:*.vbe OR cmdline:*.js OR cmdline:*.vba )
+Note:
+you can use only strings like jse js in cmdline to reduce query time
