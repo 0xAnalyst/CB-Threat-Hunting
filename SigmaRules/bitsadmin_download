@@ -1,0 +1,2 @@
+Search Query:
+  process_name:"bitsadmin.exe" AND cmdline:"/transfer"
