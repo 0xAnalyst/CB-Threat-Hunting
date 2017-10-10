@@ -1,0 +1,1 @@
+process_name:mstsc.exe -parent_name:explorer.exe -parent_name:servermanager.exe
