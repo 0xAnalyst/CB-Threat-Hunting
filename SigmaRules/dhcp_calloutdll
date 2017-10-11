@@ -1,0 +1,4 @@
+Search Query:
+regmod:\Services\DHCPServer\Parameters\CalloutDlls OR regmod:\Services\DHCPServer\Parameters\CalloutEnabled
+note:
+you can exclude workstations since this only seems to be for DHCP servers only
