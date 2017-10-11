@@ -1,0 +1,1 @@
+(process_name:cmd.exe) and (parent_name:winword.exe OR parent_name:excel.exe)
