@@ -1,0 +1,1 @@
+(process_name:rundll32.exe) and (cmdline:temp OR cmdline:users OR cmdline:javascript OR cmdline:RunDLL) and -cmdline:*davclnt.dll,DavSetCookie*
