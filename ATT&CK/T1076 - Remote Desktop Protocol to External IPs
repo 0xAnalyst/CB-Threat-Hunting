@@ -1,1 +1,2 @@
+# Query 
 process_name:mstsc.exe and (ipaddr:[0.0.0.1 TO 9.255.255.255]  OR ipaddr:[11.0.0.0 TO 127.0.0.0]  OR ipaddr:[127.0.0.2 TO 171.255.255.255]  OR ipaddr:[173.0.0.0 TO 191.255.255.255]  OR ipaddr:[193.0.0.0 TO 255.255.255.255])
