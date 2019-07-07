@@ -1,0 +1,1 @@
+process_name:regsvr32.exe and (modload:jscript.dll or modload:vbscript.dll or modload:scrobj.dll)
