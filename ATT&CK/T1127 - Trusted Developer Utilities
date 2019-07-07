@@ -1,0 +1,1 @@
+(process_name:MSBuild.exe OR process_name:dnx.exe OR process_name:rcsi.exe OR process_name:WinDbg.exe OR process_name:cdb.exe OR process_name:tracker.exe) and -parent_name:devenv.exe
