@@ -1,0 +1,1 @@
+parent_name:wmiprvse.exe AND host_type:"workstation" -process_name:msiexec.exe -process_name:ccmdump.exe -process_name:werfault.exe
