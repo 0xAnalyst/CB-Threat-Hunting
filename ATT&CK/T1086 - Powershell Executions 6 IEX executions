@@ -1,0 +1,1 @@
+(process_name:powershell.exe (cmdline:Invoke-Expression OR cmdline:iex OR cmdline:\"Invoke-Expression OR cmdline:\"iex OR cmdline:"iex\(new-object" OR cmdline:"\"iex\(new-object"))
