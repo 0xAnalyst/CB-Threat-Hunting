@@ -1,0 +1,1 @@
+(process_name:net.exe or process_name:net1.exe) and cmdline:view*
