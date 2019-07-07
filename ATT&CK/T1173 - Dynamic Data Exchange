@@ -1,0 +1,1 @@
+(parent_name:winword.exe or parent_name:powerpnt.exe or parent_name:excel.exe OR parent_name:outlook.exe) AND (process_name:cmd.exe or process_name:powershell.exe OR process_name:wscript.exe or process_name:cscript.exe) and -cmdline:CVArchiverAddin*
