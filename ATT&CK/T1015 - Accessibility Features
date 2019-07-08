@@ -1,0 +1,1 @@
+((filemod:c:\windows\system32\osk.exe OR filemod:c:\windows\system32\magnify.exe OR filemod:c:\windows\system32\narrator.exe OR filemod:c:\windows\system32\displayswitch.exe OR filemod:c:\windows\system32\AtBroker.exe OR filemod:c:\windows\system32\utilman.exe OR filemod:c:\windows\system32\sethc.exe))
