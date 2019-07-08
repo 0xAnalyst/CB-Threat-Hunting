@@ -1,2 +1,0 @@
-# Search Query
-(process_name:regsvr32.exe or process_name:rundll32.exe or process_name:certutil.exe) AND modload:scrobj*
