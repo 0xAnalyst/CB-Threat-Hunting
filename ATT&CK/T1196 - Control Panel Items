@@ -1,0 +1,1 @@
+process_name:rundll32.exe and cmdline:*control_rundll* and -cmdline:*office1* and -cmdline:*mmsys* and -cmdline:*SMSCFGRC* AND -modload:C:\Windows\system32\input.dll AND -modload:C:\WINDOWS\System32\timedate.cpl
