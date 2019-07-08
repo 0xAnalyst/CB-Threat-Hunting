@@ -1,0 +1,1 @@
+path:appdata\local\microsoft\teams\current\* AND -digsig_publisher:Microsoft Corporation
