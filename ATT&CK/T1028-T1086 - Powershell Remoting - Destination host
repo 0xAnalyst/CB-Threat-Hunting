@@ -1,1 +1,4 @@
-parent_name:wsmprovhost.exe -process_name:appcmd.exe 
+parent_name:wsmprovhost.exe -process_name:appcmd.exe parent_name:wsmprovhost.exe AND (-cmdline:/noconfig and -cmdline:User*)
+
+
+This is exclusion for Lansweeper processes (-cmdline:/noconfig and -cmdline:User*)
