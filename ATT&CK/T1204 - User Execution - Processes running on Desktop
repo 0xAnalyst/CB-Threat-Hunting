@@ -1,0 +1,1 @@
+path:desktop\*  AND os_type:"windows"  -process_name:firefox.exe -process_name:chrome.exe
