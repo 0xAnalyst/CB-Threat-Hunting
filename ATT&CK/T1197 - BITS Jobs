@@ -1,1 +1,1 @@
-process_name:bitsadmin.exe
+process_name:bitsadmin.exe and (cmdline:download or cmdline:transfer or cmdline:addfile)
