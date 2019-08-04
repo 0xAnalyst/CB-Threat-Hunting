@@ -1,0 +1,1 @@
+process_name:sc.exe and (cmdline:create or cmdline:delete or cmdline:start) and (parent_name:cmd.exe or parent_name:powershell.exe)
