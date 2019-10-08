@@ -13,7 +13,8 @@ T1086 - Powershell 5 Download file Activity
     process_name:powershell.exe AND (cmdline:.downloadstring* OR cmdline:.downloadfile*)
 T1086 - Powershell  6 IEX executions
         (process_name:powershell.exe (cmdline:Invoke-Expression OR cmdline:iex OR cmdline:\"Invoke-Expression OR cmdline:\"iex OR cmdline:"iex\(new-object" OR cmdline:"\"iex\(new-object"))
-
+T1086 - Powershell  7 - Suspicious Workstations
+        (process_name:powershell.exe AND netconn_count:[1 TO *] AND (cmdline:Exec* OR cmdline:bypass* OR cmdline:hidden* OR cmdline:NoP*)) and host_type:"workstation"
 T1086 - Powershell 8 - Powershell processes connecting to the internet
 (process_name:powershell.exe or process_name:powershell_ise.exe) and (ipaddr:[0.0.0.1 TO 9.255.255.255]  OR ipaddr:[11.0.0.0 TO 127.0.0.0]  OR ipaddr:[127.0.0.2 TO 171.255.255.255]  OR ipaddr:[173.0.0.0 TO 191.255.255.255]  OR ipaddr:[193.0.0.0 TO 255.255.255.255]) and -domain:windowsupdate.com 
 
