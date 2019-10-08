@@ -11,7 +11,8 @@ T1086 - Powershell 4 - RemoteThread From Powershell
         (crossproc_type:"remotethread") and process_name:powershell.exe
 T1086 - Powershell 5 Download file Activity
     process_name:powershell.exe AND (cmdline:.downloadstring* OR cmdline:.downloadfile*)
-
+T1086 - Powershell  6 IEX executions
+        (process_name:powershell.exe (cmdline:Invoke-Expression OR cmdline:iex OR cmdline:\"Invoke-Expression OR cmdline:\"iex OR cmdline:"iex\(new-object" OR cmdline:"\"iex\(new-object"))
 
 
         
