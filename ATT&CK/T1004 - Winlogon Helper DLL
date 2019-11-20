@@ -1,0 +1,5 @@
+Search Query:-
+(regmod:"CurrentVersion\Winlogon\Notify" or regmod:"CurrentVersion\Winlogon\Userinit" or regmod:"CurrentVersion\Winlogon\Shell") 
+
+False positives:
+  Windows Deployment Software
