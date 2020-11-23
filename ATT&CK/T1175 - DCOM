@@ -1,0 +1,3 @@
+parent_name:svchost.exe AND ipport:[59000 TO *] 
+
+*Could have some false positives*
