@@ -1,0 +1,1 @@
+(parent_name:w3wp.exe OR parent_name:httpd.exe or parent_name:nginx.exe OR parent_name:php-cgi.exe) AND (process_name:cmd.exe OR process_name:sh.exe OR process_name:powershell.exe OR process_name:bash.exe)
