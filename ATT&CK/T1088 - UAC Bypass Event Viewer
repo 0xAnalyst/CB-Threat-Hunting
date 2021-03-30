@@ -1,0 +1,1 @@
+parent_name:eventvwr.exe AND -process_name:mmc.exe
