@@ -1,0 +1,3 @@
+#Search Query# 
+
+regsvr32.exe or regsvr32  AND (cmdline:/i  AND  -(cmdline:/n))
