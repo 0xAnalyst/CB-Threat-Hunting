@@ -1,0 +1,6 @@
+# Searc Query (T1136.002)
+
+- Create a new Windows domain admin user
+- Query: 
+`(process_name:net.exe OR process_name:net1.exe) AND (cmdline:"domain" and cmdline:"add")` 
+
